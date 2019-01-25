@@ -29,7 +29,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final TextEditingController _textController = TextEditingController();
   ConnpassResponse _connpassResponse = ConnpassResponse.empty();
   bool _isComposing = false;
   bool _isSearching = false;
